@@ -4,13 +4,13 @@
   1. [Introduction](#introduction)
   2. [Variables](#variables)
   3. [Fonctions](#fonctions)
-  4. [Objets et structures de données](#objects-et-structures-de-donnees)
+  4. [Objets et structures de données](#objects-et-structures-de-données)
   5. [Classes](#classes)
   6. [SOLID](#solid)
-  7. [Testing](#testing)
-  8. [Concurrency](#concurrency)
-  9. [Gestion d’erreur](#gestion-d-erreur)
-  10. [Formattage](#formattage)
+  7. [Tester](#tester)
+  8. [Simultaneité](#simultaneité)
+  9. [Gestion des erreurs](#gestion-des-erreurs)
+  10. [Formatage](#formatage)
   11. [Commentaires](#commentaires)
   12. [Traduction](#traduction)
 
@@ -18,28 +18,28 @@
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
+Principes d’ingénierie logicielle tirés du livre de Robert C. Martin
 [*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for JavaScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
+adaptés à JavaScript. Ce guide ne vise pas à définir un style, mais à permettre de produire
+un code [lisible, reutilisable, et refactorisable](https://github.com/ryanmcdermott/3rs-of-software-architecture) en JavaScript.
 
-Not every principle herein has to be strictly followed, and even fewer will be
-universally agreed upon. These are guidelines and nothing more, but they are
-ones codified over many years of collective experience by the authors of
-*Clean Code*.
+Les principes contenus dans ce guide ne sont pas tous destinés à être suivis
+à la lettre et certains peuvent même provoquer le débat. Ce ne sont que des
+lignes directrices, mais elles sont le fruit des années d’expérience des
+auteurs de *Clean Code*.
 
-Our craft of software engineering is just a bit over 50 years old, and we are
-still learning a lot. When software architecture is as old as architecture
-itself, maybe then we will have harder rules to follow. For now, let these
-guidelines serve as a touchstone by which to assess the quality of the
-JavaScript code that you and your team produce.
+Notre pratique de l’ingénierie logicielle et vieille d’à peine plus de 50 ans
+et nous sommes encore en plein aprentissage. Nous aurons peut-être des rêgles
+plus définitive quand l’architecture logicielle sera aussi agée que
+l’architecture elle-même mais, en attendant, nous pouvons utiliser ces
+lignes directrices pour déterminer la qualité du code que nous produisons.
 
-One more thing: knowing these won't immediately make you a better software
-developer, and working with them for many years doesn't mean you won't make
-mistakes. Every piece of code starts as a first draft, like wet clay getting
-shaped into its final form. Finally, we chisel away the imperfections when
-we review it with our peers. Don't beat yourself up for first drafts that need
-improvement. Beat up the code instead!
+De plus, apprendre ces lignes directrices ne va pas instantanément faire de vous
+un meilleur développeur et les appliquer pendant des années ne va pas vous
+empêcher de faire des erreurs. Nous commencons toujours par coder une ébauche
+qui évolue jusqu'à sa forme finale, prète à être fignolée avant d'être montrée
+à nos pairs. Au lieu de vous tracassez pour l’état de votre première ébauche,
+travailler les détails de votre code petit à petit.
 
 ## **Variables**
 ### Use meaningful and pronounceable variable names
@@ -1831,7 +1831,7 @@ async function getCleanCodeArticle() {
 **[⬆ back to top](#table-of-contents)**
 
 
-## **Error Handling**
+## **Gestion des erreurs**
 Thrown errors are a good thing! They mean the runtime has successfully
 identified when something in your program has gone wrong and it's letting
 you know by stopping function execution on the current stack, killing the
