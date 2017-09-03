@@ -1,18 +1,18 @@
 # clean-code-javascript
 
-## Table of Contents
+## Table des matières
   1. [Introduction](#introduction)
   2. [Variables](#variables)
-  3. [Functions](#functions)
-  4. [Objects and Data Structures](#objects-and-data-structures)
+  3. [Fonctions](#fonctions)
+  4. [Objets et structures de données](#objects-et-structures-de-donnees)
   5. [Classes](#classes)
   6. [SOLID](#solid)
   7. [Testing](#testing)
   8. [Concurrency](#concurrency)
-  9. [Error Handling](#error-handling)
-  10. [Formatting](#formatting)
-  11. [Comments](#comments)
-  12. [Translation](#translation)
+  9. [Gestion d’erreur](#gestion-d-erreur)
+  10. [Formattage](#formattage)
+  11. [Commentaires](#commentaires)
+  12. [Traduction](#traduction)
 
 ## Introduction
 ![Humorous image of software quality estimation as a count of how many expletives
@@ -927,7 +927,7 @@ inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **Objects and Data Structures**
+## **Objets et structures de données**
 ### Use getters and setters
 Using getters and setters to access data on objects could be better than simply
 looking for a property on an object. "Why?" you might ask. Well, here's an
