@@ -41,7 +41,7 @@ qui évolue jusqu'à sa forme finale, prète à être fignolée avant d'être mo
 à nos pairs. Au lieu de vous tracassez pour l’état de votre première ébauche,
 travailler les détails de votre code petit à petit.
 
-## **Variables**
+## Variables
 ### Use meaningful and pronounceable variable names
 
 **Bad:**
@@ -199,7 +199,7 @@ function createMicrobrewery(breweryName = 'Hipster Brew Co.') {
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **Functions**
+## Fonctions
 ### Function arguments (2 or fewer ideally)
 Limiting the amount of function parameters is incredibly important because it
 makes testing your function easier. Having more than three leads to a
@@ -927,7 +927,7 @@ inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **Objets et structures de données**
+## Objets et structures de données
 ### Use getters and setters
 Using getters and setters to access data on objects could be better than simply
 looking for a property on an object. "Why?" you might ask. Well, here's an
@@ -1025,7 +1025,7 @@ console.log(`Employee name: ${employee.getName()}`); // Employee name: John Doe
 **[⬆ back to top](#table-of-contents)**
 
 
-## **Classes**
+## Classes
 ### Prefer ES2015/ES6 classes over ES5 plain functions
 It's very difficult to get readable class inheritance, construction, and method
 definitions for classical ES5 classes. If you need inheritance (and be aware
@@ -1246,7 +1246,7 @@ class Employee {
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **SOLID**
+## SOLID
 ### Single Responsibility Principle (SRP)
 As stated in Clean Code, "There should never be more than one reason for a class
 to change". It's tempting to jam-pack a class with a lot of functionality, like
@@ -1676,7 +1676,7 @@ inventoryTracker.requestItems();
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **Testing**
+## Tester
 Testing is more important than shipping. If you have no tests or an
 inadequate amount, then every time you ship code you won't be sure that you
 didn't break anything. Deciding on what constitutes an adequate amount is up
@@ -1743,7 +1743,7 @@ describe('MakeMomentJSGreatAgain', () => {
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## **Concurrency**
+## Simultaneité
 ### Use Promises, not callbacks
 Callbacks aren't clean, and they cause excessive amounts of nesting. With ES2015/ES6,
 Promises are a built-in global type. Use them!
@@ -1831,7 +1831,7 @@ async function getCleanCodeArticle() {
 **[⬆ back to top](#table-of-contents)**
 
 
-## **Gestion des erreurs**
+## Gestion des erreurs
 Thrown errors are a good thing! They mean the runtime has successfully
 identified when something in your program has gone wrong and it's letting
 you know by stopping function execution on the current stack, killing the
@@ -1904,7 +1904,7 @@ getdata()
 **[⬆ back to top](#table-of-contents)**
 
 
-## **Formatting**
+## Formatage
 Formatting is subjective. Like many rules herein, there is no hard and fast
 rule that you must follow. The main point is DO NOT ARGUE over formatting.
 There are [tons of tools](http://standardjs.com/rules.html) to automate this.
@@ -2036,7 +2036,7 @@ review.perfReview();
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Comments**
+## Commentaires
 ### Only comment things that have business logic complexity.
 Comments are an apology, not a requirement. Good code *mostly* documents itself.
 
@@ -2157,7 +2157,7 @@ const actions = function() {
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Translation
+## Traduction
 
 This is also available in other languages:
 
